@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<course>
+
+<ComputerApplicationDepartnment>
+
+<Course name>vishal singh </Course name>
+
+<Qualification>SYBCA. </Qualification>
+
+<subjectTaught>95 </subjectTaught>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Course name>sunil </Course name>
+
+<Qualification>TYBCA. </Qualification>
+
+<subjectTaught>80 </subjectTaught>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Course name>snovya</Course name>
+
+<Qualification>TYBCA. </Qualification>
+
+<subjectTaught>70 </subjectTaught>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Course name>ashish</Course name>
+
+<Qualification>TYBCA. </Qualification>
+
+<subjectTaught>85 </subjectTaught>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Course name>madhuri </Course name>
+
+<Qualification>TYBCA. </Qualification>
+
+<subjectTaught>10 </subjectTaught>
+
+</ComputerApplicationDepartnment>
+
+</course>

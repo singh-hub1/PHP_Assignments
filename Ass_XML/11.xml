@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<SUBJECT>
+
+        
+<sub>
+                        <s_code>BCA243</s_code>
+
+                        <s_name>os</s_name>
+
+                           
+ 
+                       
+    </sub>
+
+
+<sub>
+                        <s_code>BCA321</s_code>
+
+                        <s_name>ds</s_name>
+
+                      
+     </sub>
+
+
+<sub>
+                        <s_code>BCA401</s_code>
+
+                        <s_name>dbms</s_name>
+
+                       
+     </sub>
+
+
+<sub>
+                        <s_code>BCA432</s_code>
+
+                        <s_name>co</s_name>
+
+                       
+     </sub>
+
+
+<sub>
+                        <s_code>BCA211</s_code>
+
+                        <s_name>php</s_name>
+
+                      
+     </sub>
+
+
+</SUBJECT>

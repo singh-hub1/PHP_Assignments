@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<abc_bookstore><Arts><publication_year>2001</publication_year><book_title>aaa</book_title><book_author>xxxx</book_author></Arts><Science><publication_year>2005</publication_year><book_title>bbb</book_title><book_author>zzzzz</book_author></Science><Commerce><publication_year>2011</publication_year><book_title>eeee</book_title><book_author>jjjj</book_author></Commerce></abc_bookstore>

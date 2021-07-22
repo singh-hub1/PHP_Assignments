@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<cricket>
+
+        
+<Cricket>
+                        <s_code>vishal</s_code>
+
+                        <s_name>1000</s_name>
+
+                        <wicket>5</wicket>            
+ 
+                       
+    </Cricket>
+
+
+<Cricket>
+                        <s_code>warner</s_code>
+
+                        <s_name>500</s_name>
+
+                        <wicket>3</wicket>
+     </Cricket>
+
+
+<Cricket>
+                        <s_code>smith</s_code>
+
+                        <s_name>500</s_name>
+
+                        <wicket>3</wicket>
+     </Cricket>
+
+
+<Cricket>
+                        <s_code>rohit</s_code>
+
+                        <s_name>500</s_name>
+
+                        <wicket>3</wicket>
+     </Cricket>
+
+
+<Cricket>
+                        <s_code>vishal</s_code>
+
+                        <s_name>500</s_name>
+
+                        <wicket>3</wicket>
+     </Cricket>
+
+
+</cricket>

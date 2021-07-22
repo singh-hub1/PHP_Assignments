@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<cricketTeam>
+
+            <Team country='India'>
+
+                        <s_code>vishal</s_code>
+
+                        <s_name>1000</s_name>
+
+                        <wicket>5</wicket>            
+            </Team>
+                       
+            <Team country='Australia'>
+
+                        <s_code>warner</s_code>
+
+                        <s_name>500</s_name>
+
+                        <wicket>3</wicket>
+
+            </Team>       
+
+</cricketTeam>

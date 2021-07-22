@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<Course><Arts><Level>1</Level><IntakeCapacity>500</IntakeCapacity></Arts><Science><Level>2</Level><IntakeCapacity>100</IntakeCapacity></Science><Commerce><Level>3</Level><IntakeCapacity>600</IntakeCapacity></Commerce><Commerce><Level>4</Level><IntakeCapacity>800</IntakeCapacity></Commerce></Course>

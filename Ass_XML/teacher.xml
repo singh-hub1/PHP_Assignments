@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Departnment>
+
+<ComputerApplicationDepartnment>
+
+<Coursename>vishal singh </Coursename>
+
+<Qualification>phd </Qualification>
+
+<subjectTaught>os </subjectTaught>
+
+<experience>5 </experience>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Coursename>sunil </Coursename>
+
+<Qualification>bca </Qualification>
+
+<subjectTaught>ds </subjectTaught>
+
+<experience>5 </experience>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Coursename>snovya</Coursename>
+
+<Qualification>mca </Qualification>
+
+<subjectTaught>dbms </subjectTaught>
+
+<experience>5 </experience>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Coursename>ashish</Coursename>
+
+<Qualification>professor </Qualification>
+
+<subjectTaught>co </subjectTaught>
+
+<experience>5 </experience>
+
+</ComputerApplicationDepartnment>
+
+<ComputerApplicationDepartnment>
+
+<Coursename>madhuri </Coursename>
+
+<Qualification>net</Qualification>
+
+<subjectTaught>rdbms </subjectTaught>
+
+<experience>5 </experience>
+
+</ComputerApplicationDepartnment>
+
+</Departnment>
