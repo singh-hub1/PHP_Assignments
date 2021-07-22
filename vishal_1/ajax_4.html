@@ -1,0 +1,33 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form >
+            <label >Your name :</label> <br>
+            <input type="text" name="txt" onkeyup="show(this.value)">
+            <br><br>
+        </form>
+        <div id="result"></div>
+
+        <script>
+            function show(data)
+            {
+                var x;
+                if(window.XMLHttpRequest)
+                    x=new XMLHttpRequest();
+
+                else
+                x=new ActiveXObject("Microsoft.XMLHttp");
+
+                x.onreadystatechange=function()
+                {
+                    if(x.readyState==4 && x.status==200)
+                    document.getElementById("result").innerHTML=x.responseText;
+                };
+                x.open("GET","ajax_validation.php?t="+data,true);
+                x.send();
+            }
+        </script>
+    </body>
+</html>

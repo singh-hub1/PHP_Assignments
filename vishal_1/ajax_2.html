@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    <script type="text/javascript">
+        function show(str)
+        {
+            var x=new XMLHttpRequest();
+                 
+                      
+         x.onreadystatechange=function()
+            {
+                if(x.readyState==4 && x.status==200)
+
+                     document.getElementById("txtHint").innerHTML=x.responseText;
+                    
+                };
+                x.open("GET","game.php?t="+str);
+                x.send();
+            }
+        
+    </script>
+    </head>
+    <body>
+        <form >
+            <label >Enter game name</label><br>
+            <input type="text" name="txt" onkeyup="show(this.value)">
+        </form>
+        <p>Suggestions: <span id="txtHint"></span></p>
+    </body>
+</html>

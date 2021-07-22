@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript" >
+function m1(str)
+{
+    var ob;
+    ob=new XMLHttpRequest();
+
+    ob.onreadystatechange=function()
+    {
+        if(ob.readyState==4 && ob.status==200)
+
+        document.getElementById("a").innerHTML=ob.responseText;
+
+    };
+
+    ob.open("GET","name.php?q="+str);
+    ob.send();
+}
+
+</script>
+</head>
+
+<body>
+<form>
+Enter Name Of Student :<input type=text name=search size="20"
+onkeyup="m1(this.value)">
+
+<input type=button value="submit" >
+</form>
+
+suggestions :<span id="a"></span><br>
+
+</body>
+</html>
+

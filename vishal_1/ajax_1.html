@@ -1,0 +1,60 @@
+<html>
+    <head>
+
+</head>
+    <body>
+        <form >
+            <label >USERNAME :</label><br>
+            <input type="text">
+            <br><br>
+            <label >PASSWORD :</label><br>
+            <input type="password">
+            <br><br>
+            <label >CHOOSE STATE :</label><br>
+
+            <select  onchange="myFun(this.value)">
+
+                <option>select state</option>
+                <option value="MAHARASHTRA">MAHARASHTRA</option>
+                <option value="GOA">GOA</option>
+                <option value="BIHAR">BIHAR</option>
+            </select>
+
+            <br><br>
+
+            <label >CHOOSE CITY :</label><br>
+
+            <select  id="city">
+                <option>select city</option>
+              
+            </select>
+            <br><br>
+
+            </form>
+
+
+<script type="text/javascript">
+
+    function myFun(data)
+    {
+        alert(data);
+              var x;
+              x=new XMLHttpRequest();
+              x.open("GET","response.php?val="+data,true);
+              x.send();
+        
+     
+        
+         x.onreadystatechange=function()
+         {
+             if(x.readyState==4 && x.status==200)
+            
+                 document.getElementById("city").innerHTML=x.responseText;
+            
+         };
+    
+    }
+</script>
+
+</body>
+</html>

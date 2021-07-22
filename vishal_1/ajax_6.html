@@ -1,0 +1,36 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form >
+            <label >Your name :</label> <br>
+            <input type="text"  id="name" >
+            <input type="submit" value="submit" onkeyup="show()">
+            <br><br>
+        </form>
+        <div id="result"></div>
+
+        <script>
+            function show()
+            {
+                
+                var x;
+                if(window.XMLHttpRequest)
+                    x=new XMLHttpRequest();
+
+                else
+                x=new ActiveXObject("Microsoft.XMLHttp");
+
+                x.onreadystatechange=function()
+                {
+                    if(x.readyState==4 && x.status==200)
+                    document.getElementById("result").innerHTML=x.responseText;
+                };
+                var a = document.getElementById("name").value;
+                x.open("GET","ajax_6.php?t="+a,true);
+                x.send();
+            }
+        </script>
+    </body>
+</html>

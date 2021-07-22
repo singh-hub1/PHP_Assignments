@@ -1,0 +1,27 @@
+
+<html>
+    <script type="text/javascript">
+    function display()
+    {
+    
+    ob = new XMLHttpRequest();
+    var a = document.getElementById("result").value;
+    ob.open("GET","ajax_5.php?txt="+a);
+    ob.send();
+    ob.onreadystatechange = function()
+    {
+    if(ob.readyState == 4 && ob.status == 200)
+    document.getElementById("i").innerHTML = ob.responseText;
+    };
+    }
+    </script>
+    <body>
+    Enter Student Name :<input type=text id="result" onkeyup="display()"><br>
+    <!-- <input type=submit value="DISPLAY Details" onclick=display()><br><br> -->
+    <span id=i></span>
+    </body>
+    </html>
+    
+    
+    
+    
