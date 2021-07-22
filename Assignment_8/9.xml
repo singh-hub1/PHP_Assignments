@@ -1,0 +1,26 @@
+
+<? Xml version=�1.0�encoding=��ISO-8859-1�?>
+
+<Book Store>
+
+<Books>
+
+<PHP>
+
+<Title> Programming in PHP </ Title>
+
+<Publication>O�RELLY<Publication>
+
+</PHP>
+
+<PHP>
+
+<Title> Beginners PHP</ Title>
+
+<Publication> WORX</Publication>
+
+</PHP>
+
+</Books>
+
+</Book Store>

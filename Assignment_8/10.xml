@@ -1,0 +1,31 @@
+
+ Write a script to create XML file as �Employee.xml�. The element of /this xml file are as
+
+follows:
+<Empdetails>
+<Employee EMPno= Empname=>
+<Salary>--------</Salary>
+<Designation>-------</Designation>
+</Employee>
+</Empdetails>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Empdetails>
+<Emp Empno="1" Empname="arya">
+<Sal>15000</Sal>
+<Desg>Developer</Desg>
+</Emp>
+<Emp Empno="2" Empname="vishal">
+<Sal>35000</Sal>
+<Desg>manager</Desg>
+
+</Emp>
+<Emp Empno="3" Empname="snovya">
+<Sal>25000</Sal>
+<Desg>Tester</Desg>
+</Emp>
+</Empdetails>
+

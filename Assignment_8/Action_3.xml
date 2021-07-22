@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<cricketinfo>
+
+            <cricket>
+
+                        <player>vishal</player>
+
+                        <runs>1000</runs>
+
+                        <wickets>50</wickets>
+
+                        <noofnotout>10</noofnotout>
+
+            </cricket>
+
+            <cricket>
+                        <player>rohit</player>
+
+                        <runs>500</runs>
+
+                        <wickets>10</wickets>
+
+                        <noofnotout>8</noofnotout>
+
+            </cricket>
+
+            <cricket>
+                        <player>warner</player>
+
+                        <runs>1020</runs>
+
+                        <wickets>60</wickets>
+
+                        <noofnotout>20</noofnotout>
+
+            </cricket>
+
+            <cricket>
+                        <player>smith</player>
+
+                        <runs>9000</runs>
+
+                        <wickets>90</wickets>
+
+                        <noofnotout>40</noofnotout>
+
+            </cricket>
+
+            <cricket>
+                        <player>root</player>
+
+                        <runs>1700</runs>
+
+                        <wickets>80</wickets>
+
+                        <noofnotout>8</noofnotout>
+
+            </cricket>
+
+</cricketinfo>
