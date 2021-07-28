@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<employee dept="civil">  //root element
+
+    <record emp_id="101">  //parent element
+        <name>vishal</name>     //child element
+        <position>xyz</position>  //leaf element
+    </record>
+
+    <record emp_id="102">
+        <name>arya</name>
+        <position>abc</position>
+    </record>
+
+    <record emp_id="103">
+        <name>jaus</name>
+        <position>home</position>
+    </record>
+</employee>
+
