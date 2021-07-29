@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<Bookstore>
+  <Book>
+    <title>PHP</title>
+    <year>2021</year>
+
+  <publisher>
+    <author>Vishal singh</author>
+    <date>2/2/2001</date>
+  </publisher>
+   
+  </Book>
+
+</Bookstore>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<address>
+<flat>202</flat>
+<street>karve road</street>
+
+<region>
+  <name>vishal singh</name>
+  <state>801503</state>
+  <country>india</country>
+</region>
+
+</address>

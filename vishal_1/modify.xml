@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<employee dept="civil">  
+    <record emp_id="101"> 
+        <name>vishal</name>    
+        <position>xyz</position>  
+    </record>
+
+    <record emp_id="102">
+        <name>arya</name>
+        <position>abc</position>
+    </record>
+
+    <record emp_id="103">
+        <name>jaus</name>
+        <position>home</position>
+    </record>
+</employee>
+
