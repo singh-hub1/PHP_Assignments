@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+  <result id="1">
+    <name>Opal Kole</name>
+    <sgpa>8.1</sgpa>
+    <cgpa>8.4</cgpa>
+  </result>
+</student>

@@ -1,6 +1,6 @@
 
 <?php
-$xml=simplexml_load_file('employee.xml');
+$xml=simplexml_load_file('simplexml_load_file.xml');
 echo "<h2>Employee information</h2>";
 $list=$xml->record;
 for($i=0;$i<count($list);$i++)
